@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="5098224373675844">
+            <conditions>
+                <condition id="0" name="On click" sid="4592554716526274" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="8983518616619444" type="nave">
+                    <param id="0" name="Object">bala</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="9988953261581014" type="bala">
+                    <param id="0" name="Angle">270</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5230498127385304">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4002411282651107" type="bala">
+                    <param id="0" name="Object">dengue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4087553784427024" type="dengue" />
+                <action id="0" name="Spawn another object" sid="2978074864331963" type="bala">
+                    <param id="0" name="Object">Sprite</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2455320071244223" type="bala" />
+            </actions>
+        </event-block>
+        <event-block sid="7069721429250033">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3525964739924828" type="System" />
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="9446875886949298" type="dengue">
+                    <param id="0" name="Angle">-270</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3025239325535065">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9598886325591287" type="dengue">
+                    <param id="0" name="Object">nave</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8044660929302725" type="nave" />
+                <action id="0" name="Spawn another object" sid="9358678596403896" type="nave">
+                    <param id="0" name="Object">Sprite</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9342452403308993" type="dengue" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
