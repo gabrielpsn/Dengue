@@ -81,16 +81,31 @@
         <event-block sid="2481182308627102">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="2547991533129247" type="System">
-                    <param id="0" name="Interval (seconds)">3</param>
+                    <param id="0" name="Interval (seconds)">1</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="3332344382465429" type="System">
                     <param id="0" name="Object to create">dengue</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">50</param>
-                    <param id="3" name="Y">random(50)</param>
+                    <param id="2" name="X">random(1400)</param>
+                    <param id="3" name="Y">50</param>
                 </action>
+                <action id="-8" name="Set angle" sid="4381001203374373" type="dengue">
+                    <param id="0" name="Angle">-270</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6866294984747406">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7426609137077935" type="System">
+                    <param id="0" name="Variable">pontuacao</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="9596678150518439" type="System" />
             </actions>
         </event-block>
     </events>
