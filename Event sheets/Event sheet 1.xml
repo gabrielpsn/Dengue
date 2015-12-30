@@ -66,6 +66,9 @@
                     <param id="2" name="Image point">0</param>
                 </action>
                 <action id="-9" name="Destroy" sid="9342452403308993" type="dengue" />
+                <action id="0" name="Set text" sid="9805284080294528" type="gamerOver">
+                    <param id="0" name="Text">&quot;Gmer Over&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="7039946072484814">
@@ -73,7 +76,7 @@
                 <condition id="-1" name="Every tick" sid="380447853977199" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="1157538951557812" type="Text">
+                <action id="0" name="Set text" sid="1157538951557812" type="pontuacao">
                     <param id="0" name="Text">&quot;Pontuação : &quot; &amp; pontuacao</param>
                 </action>
             </actions>

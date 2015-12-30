@@ -137,7 +137,13 @@
         <object-type name="Mouse" sid="3322265326139947">
             <plugin id="Mouse" />
         </object-type>
-        <object-type name="Text" sid="1576038296264212">
+        <object-type name="pontuacao" sid="1576038296264212">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="1064106920613993">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="gamerOver" sid="2278033475546873">
             <plugin id="Text" />
         </object-type>
     </object-folder>
