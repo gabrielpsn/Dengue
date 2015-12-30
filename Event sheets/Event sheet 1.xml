@@ -78,5 +78,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2900600140410463">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="5280414868826045" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="6268985867369207" type="System">
+                    <param id="0" name="Object to create">dengue</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1400</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
