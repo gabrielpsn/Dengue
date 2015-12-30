@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 1</name>
+    <name>jogo</name>
     <sid>7148409642586088</sid>
     <event-sheet>Event sheet 1</event-sheet>
     <size>
-        <width>1280</width>
-        <height>1024</height>
+        <width>850</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -40,8 +40,8 @@
                         <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>1280</width>
-                        <height>1024</height>
+                        <width>850</width>
+                        <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -101,8 +101,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>615</x>
-                        <y>966</y>
+                        <x>429</x>
+                        <y>378</y>
                         <z>0</z>
                         <width>83</width>
                         <height>104</height>
@@ -206,8 +206,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>321</x>
-                        <y>-83</y>
+                        <x>499</x>
+                        <y>170</y>
                         <z>0</z>
                         <width>62.978721619</width>
                         <height>80</height>
@@ -317,8 +317,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>357</x>
-                        <y>311</y>
+                        <x>297</x>
+                        <y>236</y>
                         <z>0</z>
                         <width>62.978721619</width>
                         <height>80</height>
@@ -391,8 +391,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>862</x>
-                        <y>95</y>
+                        <x>550</x>
+                        <y>78</y>
                         <z>0</z>
                         <width>62.978721619</width>
                         <height>80</height>
@@ -465,8 +465,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>888</x>
-                        <y>253</y>
+                        <x>364</x>
+                        <y>144</y>
                         <z>0</z>
                         <width>62.978721619</width>
                         <height>80</height>
@@ -502,8 +502,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1070</x>
-                        <y>150</y>
+                        <x>246</x>
+                        <y>73</y>
                         <z>0</z>
                         <width>62.978721619</width>
                         <height>80</height>
@@ -539,8 +539,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>661</x>
-                        <y>349</y>
+                        <x>233</x>
+                        <y>122</y>
                         <z>0</z>
                         <width>62.978721619</width>
                         <height>80</height>

@@ -10,6 +10,7 @@
     <unique-id>1589x5fuq6q55</unique-id>
     <saved-with-version>21600</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -140,19 +141,34 @@
         <object-type name="pontuacao" sid="1576038296264212">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text2" sid="1064106920613993">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="gamerOver" sid="2278033475546873">
             <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="inicio" sid="1731904772621405">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="opcoes" sid="2052310944200045">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="instrucoes" sid="3285666112565715">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="reiniciar" sid="9934708848734702">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="sair" sid="8478750584183179">
+            <plugin id="Button" />
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>menu.xml</layout>
+        <layout>jogo.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="12" />

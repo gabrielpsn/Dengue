@@ -67,7 +67,7 @@
                 </action>
                 <action id="-9" name="Destroy" sid="9342452403308993" type="dengue" />
                 <action id="0" name="Set text" sid="9805284080294528" type="gamerOver">
-                    <param id="0" name="Text">&quot;Gmer Over&quot;</param>
+                    <param id="0" name="Text">&quot;Gamer Over&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -109,7 +109,26 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="9596678150518439" type="System" />
+                <action id="-2" name="Go to layout" sid="300847802191726" type="System">
+                    <param id="0" name="Layout">jogo</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="3564142019994781">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8303590854914844" type="inicio" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8825215554893102" type="System">
+                    <param id="0" name="Layout">jogo</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5060648771389761">
+            <conditions>
+                <condition id="0" name="On clicked" sid="2262823068444594" type="sair" />
+            </conditions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>
