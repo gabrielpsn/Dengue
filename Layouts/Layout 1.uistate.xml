@@ -23,9 +23,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="main" />
+    <active-layer name="pontuacao" />
     <layers>
         <layer locked="1" name="background" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="main" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="main" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="pontuacao" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

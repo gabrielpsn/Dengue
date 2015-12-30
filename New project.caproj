@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
@@ -135,6 +136,9 @@
         </object-type>
         <object-type name="Mouse" sid="3322265326139947">
             <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Text" sid="1576038296264212">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
